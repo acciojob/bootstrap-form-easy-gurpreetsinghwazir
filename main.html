@@ -11,48 +11,43 @@
 	<!-- the entire body must be written by student -->
 <table border = "1">
 	<tr><td>
+		<h1  style="text-align:center;"> Internship Form</h1>
 <form>
 <div class="row was-validated">
 	
-<div class="form-label col" id = "first-name-input" > 
- <label for="text" class="form-label" >First Name </label>
-  <input type="text" class="form-control " placeholder="Username" aria-label="Username" required >
-	<div class="invalid-feedback">
-        First name required!
-      </div>
+<div class="form-label col" id="first-name-input">
+  <label for="text" class="form-label">First Name</label>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" required>
+  <div class="invalid-feedback">First name required!</div>
 </div>
 
-<div class="last-name-input col" id = "last-name-input"> 
- <label for="text" class="form-label" >Last Name </label>
-  <input type="text" class="form-control " placeholder="Username" aria-label="Username" required>
-	<div class="invalid-feedback">
-        Last name required!
-      </div>
+
+<div class="last-name-input col" id="last-name-input">
+  <label for="text" class="form-label">Last Name</label>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" required>
+  <div class="invalid-feedback">Last name required!</div>
 </div>
+
 	
-<div class="email-input col" id = "email-input">
-    <label for="inputEmail4" class="form-label" required>Email</label>
-    <input type="email" class="form-control" id="inputEmail4" placeholder="xyz@gmail.com" required>
-	
-	<div class="invalid-feedback">
-        Email- Required!
-      </div>
-	
-</div></div>
+<div class="email-input col" id="email-input">
+  <label for="inputEmail4" class="form-label" required>Email</label>
+  <input type="email" class="form-control" id="inputEmail4" placeholder="xyz@gmail.com" required>
+  <div class="invalid-feedback">Email- Required!</div>
+</div>
+
+
+</div>
 			<div class="row was-validated">
 				
-<div class="college-input col" id = "college-input"> 
- <label for="text" class="form-label">College </label>
-  <input type="text" class="form-control " placeholder="College" aria-label="Username" required>
-
-	<div class="invalid-feedback">
-      Please Provide a valid Collage
-    </div>
-	
+<<div class="college-input col" id="college-input">
+  <label for="text" class="form-label">College</label>
+  <input type="text" class="form-control" placeholder="College" aria-label="Username" required>
+  <div class="invalid-feedback">Please Provide a valid College</div>
 </div>
+
 	
 
-<div class="form-label col" id = "first-name-input">
+<div class="form-label col" id = "graduation-year-input">
 	<label for="autoSizingSelect"  class="form-label"  >Graduation Year </label>
     <select class="form-select" required aria-label="select example">
       <option value="">Choose...</option>
@@ -67,25 +62,23 @@
 
 
 		
-<div class="form-label col" id = "roll-no-input"> 
- <label for="validationTextarea" class="form-label">Roll No. </label>
+<div class="form-label col" id="roll-no-input">
+  <label for="validationTextarea" class="form-label">Roll No.</label>
   <input type="text" class="form-control" placeholder="Roll No." aria-label="Username" required>
-	 <div class="invalid-feedback">
-      Please Provide a valid Roll no.
-    </div>
+  <div class="invalid-feedback">Please Provide a valid Roll no.</div>
 </div>
+
 
 		
 
-<div class="conditions-checkbox" id = "conditions-checkbox">
-      <input class="form-check-input " type="checkbox" id="gridCheck" required>
-      <label class="form-check-label" for="gridCheck" >Aggre to terms and conditions</label>
+<div class="conditions-checkbox" id="conditions-checkbox">
+  <input class="form-check-input" type="checkbox" id="gridCheck" required>
+  <label class="form-check-label" for="gridCheck">Agree to terms and conditions</label>
+  <div class="invalid-feedback">You must agree before submitting.</div>
+</div>
 
-	<div class="invalid-feedback">
-        You must agree before submitting.
-      </div>
 	
-    </div>
+   
 
 <div class="boxxx">
     <button type="submit" class="btn btn-primary">Submit Form</button>
