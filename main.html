@@ -15,21 +15,21 @@
 <form class="needs-validation was-validated form-control" >
 		<div class="row">
 			
-			<div class="form-label col"  required>
-				<label type="text" for="first-name-input"  class="form-label" >First Name</label>
+			<div class="form-label col"  >
+				<label type="text" for="first-name-input"  class="form-label"  >First Name</label>
 				<input type="text" id="first-name-input"  class="form-control" placeholder="first name" aria-label="Username" required>
 				<div class="invalid-feedback" >First name required!</div>
 			</div>
 
 
-		<div class="last-name-input col" required>
+		<div class="last-name-input col" >
 			<label class="form-label" for="last-name-input">Last Name</label>
 			<input type="text" id="last-name-input" class="form-control" placeholder="Username" aria-label="Username" required id="validationCustom02">
 			<div class="invalid-feedback">Last name required!</div>
 		</div>
 
 	
-		<div class="email-input col" required>
+		<div class="email-input col" >
 			<label class="form-label" for= "email-input">Email Address</label>
 			<input type="email" id="email-input" class="form-control" placeholder="xyz@gmail.com" required id="validationCustom03">
 			<div class="invalid-feedback">Email Required!</div>
@@ -38,15 +38,15 @@
 </div>
 		
 	<div class="row">
-		<div class="college-input col"  required>
-			<label for="college-input" class="form-label">College</label>
-			<input type="text" class="form-control" placeholder="College" aria-label="Username" required>
+		<div class="college-input col"  >
+			<label for="college-input" for ="college-input" class="form-label">College</label>
+			<input type="text" id="college-input" class="form-control" placeholder="College" aria-label="Username" required>
 			<div class="invalid-feedback">Please Provide a valid College</div>
 		</div>
 		
 	
 
-<div class="form-label col"  required>
+<div class="form-label col"  >
 	<label for="grad-year-select"  class="form-label"  >Graduation Year</label>
     <select class="form-select" required aria-label="select example" id = "grad-year-select">
       <option value="">Choose...</option>
@@ -61,25 +61,25 @@
 
 
 		
-<div class="form-label col" id="roll-no-input" required>
-  <label for="roll-no-input" class="form-label">Roll No.</label>
-  <input type="text" class="form-control" placeholder="Roll No." aria-label="Username" required>
-  <div class="invalid-feedback">Please Provide a valid Roll no.</div>
-</div>
-
+	<div class="form-label col"  >
+		<label for="roll-no-input" for ="roll-no-input" class="form-label">Roll No.</label>
+		<input type="text" class="form-control" id="roll-no-input" placeholder="Roll No." aria-label="Username" required>
+		<div class="invalid-feedback">Please Provide a valid Roll no.</div>
+	</div>
+		
 
 		
 
-<div class="conditions-checkbox" id="conditions-checkbox" required>
-  <input class="form-check-input" type="checkbox" id="box" required>
-  <label class="form-check-label" for = "box">Agree to terms and conditions</label>
+<div class="conditions-checkbox"  >
+  <input class="form-check-input" id="conditions-checkbox" type="checkbox" id="box" required>
+  <label class="form-check-label" for = "conditions-checkbox">Agree to terms and conditions</label>
   <div class="invalid-feedback" for="aggree">You must agree before submitting.</div>
 </div>
 
 	
    
 
-<div class="boxxx" required>
+<div class="boxxx" >
     <button type="submit" class="btn btn-primary">Submit Form</button>
 	
   </div>
